@@ -23,12 +23,12 @@ from
 	Customers c
 where 
 	c.id not in
-(
-    select 
-    	customer_id 
-    from 
-    	Orders
-);
+	(
+	    select 
+	    	customer_id 
+	    from 
+	    	Orders
+	);
 
 
 -- 性能更佳的一种写法，实际上，如果上述的Orders表很大，not in基本上速度不能接受。
