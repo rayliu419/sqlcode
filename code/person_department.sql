@@ -1,3 +1,6 @@
+drop table IF EXISTS Persons;
+drop table IF EXISTS Departments;
+
 CREATE TABLE Persons(
 	id int,
 	name varchar(20),

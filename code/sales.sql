@@ -1,3 +1,5 @@
+drop table IF EXISTS Sales;
+
 CREATE TABLE Sales(
 	trx_id int,
 	cust_id int,

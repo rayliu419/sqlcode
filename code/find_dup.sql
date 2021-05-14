@@ -1,3 +1,4 @@
+drop table IF EXISTS Dups;
 
 CREATE TABLE Dups(
 	id int,

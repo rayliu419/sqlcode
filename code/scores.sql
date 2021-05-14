@@ -1,3 +1,5 @@
+drop table IF EXISTS Scores;
+
 CREATE TABLE Scores(
 	Score float
 );

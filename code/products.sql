@@ -1,3 +1,5 @@
+drop table IF EXISTS Products;
+
 CREATE TABLE Products(
 	id int,
 	name varchar(128),

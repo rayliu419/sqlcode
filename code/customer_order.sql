@@ -1,3 +1,5 @@
+drop table IF EXISTS Customers;
+
 CREATE TABLE Customers(
 	id int,
 	name varchar(20)

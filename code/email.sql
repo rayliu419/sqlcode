@@ -1,3 +1,5 @@
+drop table IF EXISTS Emails;
+
 CREATE TABLE Emails(
 	id int,
 	email varchar(128)

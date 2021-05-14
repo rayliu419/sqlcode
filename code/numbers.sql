@@ -1,3 +1,5 @@
+drop table IF EXISTS Numbers;
+
 CREATE TABLE Numbers(
 	num int
 );
